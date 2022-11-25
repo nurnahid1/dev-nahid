@@ -6,7 +6,7 @@ import logo from '../../../Images/logo.svg'
 const Navber = () => {
     return (
         <div>
-            <div className='flex justify-between mt-10'>
+            <div className='flex justify-between mt-5 md:mt-10'>
             <div>
                 {/* <h1 className='text-3xl  font-bold bg-slate-400 text-indigo-600'>N</h1> */}
                 <img className='w-12 h-12' src={logo} alt="" />
