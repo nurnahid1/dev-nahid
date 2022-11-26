@@ -1,4 +1,5 @@
 import React from 'react';
+import About from '../About/About';
 import Banner from './Banner/Banner';
 import Navber from './Navber/Navber';
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div className='md:mr-32 md:ml-32'>
             <Navber></Navber>
             <Banner></Banner>
+         
            
         </div>
     );
