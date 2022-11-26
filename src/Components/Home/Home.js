@@ -7,6 +7,7 @@ const Home = () => {
         <div className='md:mr-32 md:ml-32'>
             <Navber></Navber>
             <Banner></Banner>
+           
         </div>
     );
 };

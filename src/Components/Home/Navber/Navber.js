@@ -8,7 +8,6 @@ const Navber = () => {
         <div>
             <div className='flex justify-between mt-5 md:mt-10'>
             <div>
-                {/* <h1 className='text-3xl  font-bold bg-slate-400 text-indigo-600'>N</h1> */}
                 <img className='w-12 h-12' src={logo} alt="" />
             </div>
 
@@ -28,7 +27,7 @@ const Navber = () => {
             </div>
             {/*navber mobile version */}
             
-            <div className='block md:hidden lg:hidden flex w-full  fixed bottom-0 right-0  mb-0 p-3 border'>
+            <div className='block md:hidden bg-black mt-10 lg:hidden flex w-full  fixed bottom-0 right-0  mb-0 p-3 rounded-md'>
             <Link className='w-10 h-8 mx-8 text-white' to='/'><HomeIcon className=''></HomeIcon></Link>
             <Link className='w-10 h-8 mr-8 text-white' to='/skill'><StarIcon ></StarIcon></Link>
             <Link className='w-10 h-8 mr-8 text-white' to='/about'><IdentificationIcon></IdentificationIcon> </Link>
