@@ -1,13 +1,21 @@
 import React from 'react';
 import About from '../About/About';
+import Blog from '../Blog/Blog';
+import Contact from '../Contact/Contact';
+import Portfolio from '../Portfolio/Portfolio';
+import Skills from '../Skills/Skills';
 import Banner from './Banner/Banner';
-import Navber from './Navber/Navber';
 
 const Home = () => {
     return (
-        <div className='md:mr-32 md:ml-32'>
-            <Navber></Navber>
+        <div >
+            
             <Banner></Banner>
+            <About></About>
+            <Skills></Skills>
+            <Portfolio></Portfolio>
+            <Blog></Blog>
+            <Contact></Contact>
          
            
         </div>

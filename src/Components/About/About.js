@@ -3,13 +3,12 @@ import Navber from '../Home/Navber/Navber';
 import './About.css'
 import img from '../../Images/aboutme.jpg'
 import { Link } from 'react-router-dom';
-import { FaEnvelope, FaFacebook, FaGithub, FaLinkedinIn, FaWhatsapp, } from 'react-icons/fa';
+import {  FaFacebook, FaGithub, FaLinkedinIn, FaWhatsapp, } from 'react-icons/fa';
 
 const About = () => {
     return (
         <div className='md:mr-20 md:ml-20'>
-            <Navber></Navber>
-            <div className='about md:h-auto h-full py-5 mt-6 mb-12 md:flex md:justify-between mx-10 md:px-12 lg:px-24 px-8 md:gap-16 lg:gap-32'>
+            <div className='about md:h-auto h-full py-5 mt-6 mb-20 md:flex md:justify-between mx-10 md:px-12 lg:px-24 px-8 md:gap-16 lg:gap-32'>
             <div>
                 <img className='md:max-w-xs lg:max-w-sm  max-w-96 rounded-lg ' src={img} alt="" />
             </div>

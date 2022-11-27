@@ -1,18 +1,22 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import banner from '../../../Images/banner.png'
+import './Banner.css'
 
 const Banner = () => {
     return (
-        <div className='lg:max-w-full md:flex justify-between items-center'>
+        <div className='mx-5 md:mx-10 lg:mx-20'>
+            <div className='lg:max-w-full md:flex justify-between items-center '>
             <div className='mx-auto pl-3 mt-6 ml-5 '>
                 <img className='lg:max-w-lg   ' src={banner} alt="banner img" />
                 <div className='h-[5px] md:hidden mx-auto w-3/4 absolute left-12 rounded-full bg-gradient-to-r from-sky-500 to-indigo-500 shadow-2xl'></div>
             </div>
             <div className='pt-5 '>
-                <h1 className='text-white text-5xl '>Hey,👋</h1>
-                <h1 className='text-4xl mt-5 '>It's me Nahid</h1>
-                <h2 className='text-5xl mt-3   '>Front-End Developer</h2>
+                <h1 className='text-white text-5xl text-center md:text-start'>Hey,👋</h1>
+                <h1 className='text-4xl mt-5 text-center md:text-start text-slate-400 text-gradient'>It's me Nahid </h1>
+                <p className='text-slate-500 absoulate bottom-9'>I'm a</p>
+                <h2 className='text-2xl md:text-3xl lg:text-6xl mt-3 text-center md:text-start text-slate-400 text-gradient  '>Front-End Developer</h2>
+                <p className='text-slate-300'>I build web applications using <span className='text-[#61DAFB] '>React</span></p>
 
                 <div className='mt-10  w-full md:flex justify-center mx-auto'>
                     {/* <button className=' px-12 py-3 text-white bg-gradient-to-r from-sky-500 to-indigo-800 rounded-full '>Hire me</button>
@@ -23,6 +27,8 @@ const Banner = () => {
                 </div>
             </div>
         </div>
+        </div>
+        
     );
 };
 

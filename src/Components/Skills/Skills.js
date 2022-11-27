@@ -8,7 +8,6 @@ import { SiExpress, SiMongodb, SiTailwindcss } from "react-icons/si";
 const Skills = () => {
     return (
         <div className=' '>
-            <Navber></Navber>
             <div className=''>
             <div className='pt-3'>
                 <h1 className='text-white text-3xl md:text-4xl text-center p-2 mb-10 skills rounded-sm w-60 md:w-1/3 mx-auto mt-2 '>Skills Overview</h1>
