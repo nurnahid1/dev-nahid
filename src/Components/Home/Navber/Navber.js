@@ -1,24 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {HomeIcon, SunIcon, StarIcon, IdentificationIcon, PhoneIcon, BriefcaseIcon } from '@heroicons/react/24/solid'
-import logo from '../../../Images/logo.svg'
+import './Navber.css'
 
 const Navber = () => {
     return (
         <div>
             <div className='flex justify-between mt-5 md:mt-10'>
             <div>
-                <img className='w-12 h-12' src={logo} alt="" />
+              <h2 className='logo text-2xl font-poppins'>Nahid</h2>
             </div>
 
             {/* desktop version */}
             <div className='lg:max-w-lg max-w-xs hidden md:block lg:block'>
-                <Link className='mr-5 text-white font-bold border border-violet-400 hover:text-black hover:bg-[#61DAFB]	 bg-slate-400 p-2 rounded-md ' to="/">Home</Link>
-                <Link className='mr-5 text-white font-bold border border-violet-400 hover:text-black hover:bg-[#61DAFB]	 bg-slate-400 p-2 rounded-md ' to="/about">About</Link>
-                <Link className='mr-5 text-white font-bold border border-violet-400 hover:text-black hover:bg-[#61DAFB]	 bg-slate-400 p-2 rounded-md ' to="/skill">Skills</Link>
-                <Link className='mr-5 text-white font-bold border border-violet-400 hover:text-black hover:bg-[#61DAFB]	 bg-slate-400 p-2 rounded-md ' to="/portfolio">Portfolio</Link>
-                <Link className='mr-5 text-white font-bold border border-violet-400 hover:text-black hover:bg-[#61DAFB]	 bg-slate-400 p-2 rounded-md ' to="/blog">Blog</Link>
-                <Link className='mr-5 text-white font-bold border border-violet-400 hover:text-black hover:bg-[#61DAFB]	 bg-slate-400 p-2 rounded-md ' to="/contact">Contact</Link>
+                <Link className='mr-5 active:bg-violet-700 text-white font-bold border p-2 rounded-md font-open-sans' to="/">Home</Link>
+                <Link className='mr-5 text-white font-bold border hover:text-black hover:bg-[#61DAFB]	  p-2 rounded-md font-open-sans' to="/about">About</Link>
+                <Link className='mr-5 text-white font-bold border hover:text-black hover:bg-[#61DAFB]	  p-2 rounded-md font-open-sans' to="/skill">Skills</Link>
+                <Link className='mr-5 text-white font-bold border  hover:text-black hover:bg-[#61DAFB]	  p-2 rounded-md font-open-sans ' to="/portfolio">Portfolio</Link>
+                <Link className='mr-5 text-white font-bold border hover:text-black hover:bg-[#61DAFB]	  p-2 rounded-md font-open-sans' to="/blog">Blog</Link>
+                <Link className='mr-5 text-white font-bold border hover:text-black hover:bg-[#61DAFB]	  p-2 rounded-md font-open-sans' to="/contact">Contact</Link>
             </div>
 
             <div >

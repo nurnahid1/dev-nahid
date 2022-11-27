@@ -1,0 +1,9 @@
+.logo{
+    color: #e3e6e5;
+    background-image: -webkit-linear-gradient(0deg, #e3e6e5 8%, #353635 99%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+  
+}
