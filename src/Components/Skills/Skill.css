@@ -2,3 +2,11 @@
     background: rgb(75,9,190);
     background: linear-gradient(90deg, rgba(75,9,190,1) 0%, rgba(24,3,66,1) 55%);
 }
+
+.skillsBg{
+    color: #d4d4d4;
+    background-image: -webkit-linear-gradient(0deg, #d4d4d4 0%, #474747 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

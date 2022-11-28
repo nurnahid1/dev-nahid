@@ -3,6 +3,7 @@ import './App.css'
 import About from './Components/About/About';
 import Blog from './Components/Blog/Blog';
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
 import Navber from './Components/Home/Navber/Navber';
 import Portfolio from './Components/Portfolio/Portfolio';
@@ -11,7 +12,7 @@ import Skills from './Components/Skills/Skills';
 function App() {
   return (
     <div className='scroll-smooth'>
-        <Navber></Navber>
+      <Navber></Navber>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/about' element={<About></About>}></Route>
@@ -20,7 +21,7 @@ function App() {
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
       </Routes>
-      
+      <Footer></Footer>
     </div>
   );
 }

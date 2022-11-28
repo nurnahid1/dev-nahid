@@ -10,7 +10,7 @@ const Banner = () => {
             <div className='lg:max-w-full md:flex justify-between items-center '>
             <div className='mx-auto pl-3 mt-6 ml-5 '>
                 <img className='lg:max-w-lg ' src={banner} alt="banner img" />
-                <div className='h-[5px] md:hidden mx-auto w-3/4 absolute left-12 rounded-full bg-gradient-to-r from-sky-500 to-indigo-500 shadow-2xl'></div>
+                <div className='h-[4px]  md:w-[400px] md:left-40 mx-auto w-3/4 absolute left-12 rounded-full bg-gradient-to-r from-slate-100 to-slate-500 shadow-2xl'></div>
             </div>
             <div className='pt-5 '>
                 <h1 className='text-slate-100 text-5xl text-center md:text-start font-roboto'>Hey,👋</h1>
@@ -21,8 +21,8 @@ const Banner = () => {
                 <p className='text-slate-200 mt-5 text-center md:text-start font-sans-serif'>I am a passionate web developer love to code and take challenges. It's been two years I've been working as a developer. Currently learning Backend technologies and focused on <span>Full Stack Development</span>.</p>
 
                 <div className='mt-10  w-full flex justify-center md:justify-start mx-auto'>
-                    <button className='text-white flex items-center border hover:border-blue-700 px-10 py-3 mr-5 font-poppins'>Github<FaGithub className='ml-2 '> </FaGithub> </button>
-                    <button className='text-white flex items-center border border-purple-800 px-12 py-3  font-poppins hover:bg-purple-800'>Resume <HiDownload className='ml-2'></HiDownload> </button>
+                    <button className='text-white flex items-center border border-slate-300 hover:border-blue-700 px-10 py-3 mr-5 font-poppins'>Github<FaGithub className='ml-2 '> </FaGithub> </button>
+                    <button className='text-white flex items-center border border-blue-700 px-12 py-3  font-poppins '>Resume <HiDownload className='ml-2'></HiDownload> </button>
                 </div>
             </div>
         </div>
