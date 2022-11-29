@@ -1,5 +1,5 @@
 import React from 'react';
-import {  FaChrome, FaCode, FaFigma, FaNodeJs, FaReact } from 'react-icons/fa';
+import {  FaBootstrap, FaChrome, FaCode, FaFigma, FaNodeJs, FaReact } from 'react-icons/fa';
 import { AiOutlineApi } from "react-icons/ai";
 import './Skill.css'
 import { DiJavascript1 } from "react-icons/di";
@@ -24,7 +24,7 @@ const Skills = () => {
                     <div className='w-56 h-40 rounded-md px-4 py-3 bg-[#7430F8] hover:bg-[#6A10F3]'>
                        <div className='flex justify-between items-center '>
                        <h2 className=' text-2xl font-bold text-white font-sans-serif'>Bootstrap 5</h2>
-                       <p><FaNodeJs className='w-8 h-8 text-white font-bold'></FaNodeJs> </p>
+                       <p><FaBootstrap className='w-8 h-8 text-white font-bold'></FaBootstrap> </p>
                        </div>
                        <p className='mt-12 font-sans-serif'>The world's most popular CSS framework</p>
                    </div>
@@ -49,6 +49,18 @@ const Skills = () => {
                        <p><FaReact className='w-8 h-8 text-white font-bold'></FaReact> </p>
                        </div>
                        <p className='mt-12 font-sans-serif'>Most popular JavaScript library</p>
+                   </div>
+                   <div className='w-56 h-22 rounded-md px-4 py-3 bg-[#20232A] hover:bg-[#02bedb]'>
+                       <div className='flex justify-between items-center '>
+                       <h2 className=' text-2xl font-bold text-white font-sans-serif'>React Bootstrap</h2>
+                       <p><FaBootstrap className='w-8 h-8 text-white font-bold'></FaBootstrap> </p>
+                       </div>
+                   </div>
+                   <div className='w-56 h-22 rounded-md px-4 py-3 bg-[#BE04CD] hover:bg-[#a505c2]'>
+                       <div className='flex justify-between items-center '>
+                       <h2 className=' text-2xl font-bold text-white font-sans-serif'>Daisy UI</h2>
+                       <p><SiTailwindcss className='w-8 h-8 text-white font-bold'></SiTailwindcss> </p>
+                       </div>
                    </div>
             </div>
                 {/* backend */}
@@ -86,12 +98,12 @@ const Skills = () => {
                     </div>
                     <p className='mt-12 font-sans-serif'>Comming soon...</p>
                 </div>
-                <div className='w-56 h-40 rounded-md px-4 py-3 bg-[#bfc0c0] hover:bg-[#5c5e5e]'>
+                <div className='w-56 h-24 rounded-md px-4 py-3 bg-[#a5a7a7] hover:bg-[#5c5e5e]'>
                     <div className='flex justify-between items-center '>
                     <h2 className=' text-2xl font-bold text-white font-sans-serif'>API</h2>
                     <p><AiOutlineApi className='w-8 h-8 text-white font-bold'></AiOutlineApi></p>
                     </div>
-                    <p className='mt-12 font-sans-serif'> Application Programming Interface</p>
+                   
                 </div>
                 </div>
                {/* tools */}
@@ -120,7 +132,7 @@ const Skills = () => {
                     <h2 className=' text-2xl font-bold text-white font-sans-serif'>Chrome dev tool</h2>
                     <p><FaChrome className='w-8 h-8 text-white font-bold'></FaChrome></p>
                     </div>
-                    <p className='mt-14 font-sans-serif'> Chrome DevTools is a set of web developer tools. </p>
+                    <p className='mt-6 font-sans-serif'> Chrome DevTools is a set of web developer tools. </p>
                 </div>
                <div className='w-56 h-40 rounded-md px-4 py-3 bg-[#FFCB2B] hover:bg-[#FFA610]'>
                     <div className='flex justify-between items-center '>

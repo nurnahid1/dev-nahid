@@ -28,11 +28,11 @@ const Contact = () => {
                     </div>
                     <div className='flex justify-start items-center'>
                     <p><FiPhone className='text-white'></FiPhone></p>
-                    <p className='text-white pl-2'><span className='font-poppins'> Phone:</span> 01925118101</p>
+                    <p className='text-white pl-2'><span className='font-poppins'> Phone:</span> +8801925118101</p>
                     </div>
                     <div className='flex justify-start items-center'>
                     <p><FaWhatsapp className='text-white '></FaWhatsapp></p>
-                    <p className='text-white pl-2'><span className='font-poppins'>Whatsapp:</span> 01885688950</p>
+                    <p className='text-white pl-2'><span className='font-poppins'>Whatsapp:</span> +8801885688950</p>
                     </div>
                     
                 </div>
