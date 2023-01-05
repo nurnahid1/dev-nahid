@@ -13,12 +13,12 @@ const Navber = () => {
 
             {/* desktop version */}
             <div className='lg:max-w-lg max-w-xs hidden md:block lg:block'>
-                <Link className='mr-5 hover:border-b-slate-300  hover:border-b-2 text-slate-300 font-bold  p-2 rounded-md font-open-sans' to="/">Home</Link>
-                <Link className='mr-5 text-slate-300 font-bold   p-2 rounded-md font-open-sans hover:border-b-slate-300  hover:border-b-2' to="/about">About</Link>
-                <Link className='mr-5 text-slate-300 font-bold   hover:border-b-slate-300  hover:border-b-2 rounded-md font-open-sans  p-2' to="/skill">Skills</Link>
-                <Link className='mr-5 text-slate-300 font-bold    hover:border-b-slate-300  hover:border-b-2 rounded-md font-open-sans pb-2' to="/portfolio">Portfolio</Link>
-                <Link className='mr-5 text-slate-300 font-bold  hover:border-b-2 hover:border-b-slate-300 p-2 rounded-md font-open-sans ' to="/blog">Blog</Link>
-                <Link className='mr-5 text-slate-300 font-bold hover:border-b-slate-300  hover:border-b-2 p-2 rounded-md font-open-sans' to="/contact">Contact</Link>
+                <Link className='mr-5 text-slate-300 font-bold p-2  font-open-sans' to="/">Home</Link>
+                <Link className='mr-5 text-slate-300 font-bold p-2 font-open-sans ' to="/about">About</Link>
+                <Link className='mr-5 text-slate-300 font-bold font-open-sans  p-2' to="/skill">Skills</Link>
+                <Link className='mr-5 text-slate-300 font-bold font-open-sans pb-2' to="/portfolio">Portfolio</Link>
+                <Link className='mr-5 text-slate-300 font-bold p-2 font-open-sans ' to="/blog">Blog</Link>
+                <Link className='mr-5 text-slate-300 font-bold hover:text-slate-200    p-2  font-open-sans' to="/contact">Contact</Link>
             </div>
 
             <div >
