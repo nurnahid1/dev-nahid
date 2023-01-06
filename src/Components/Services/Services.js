@@ -1,7 +1,8 @@
 import React from 'react';
-import { BsFront } from "react-icons/bs";
-import { FaFigma } from "react-icons/fa";
-import { RiAppsFill } from "react-icons/ri";
+
+import { FaBug, FaFigma, FaLaptop, FaLaptopCode, FaReact } from "react-icons/fa";
+import { DiResponsive } from "react-icons/di";
+import './Services.css'
 
 // animation 
 import AOS from 'aos';
@@ -10,44 +11,74 @@ AOS.init();
 
 const Services = () => {
     return (
-        <div className='mx-10 md:mx-16 lg:mx-32 mb-16 mt-6 ' >
-            <h2 className='text-xl md:text-3xl lg:text-4xl text-white mb-12 text-center font-roboto text-gradient '>Services I porvide</h2>
+    <div className=''>
+           <div className='relative w-full mb-16 md:mb-20'>
+           <h2 className='text-3xl md:text-5xl text-white mb-12 text-center font-roboto text-gradient '>Services I provide</h2>
+           {/* Line */}
+            <div className='h-[2px] w-56 md:w-60 lg:w-96  bg-gradient-to-r from-[#000814] to-[#fff]    md:px-5 lg:px-10 rounded-full  absolute left-20 md:left-[470px]  top-10  md:top-[50px] '>
+            </div>
+            </div>
+            {/* Service Cards */}
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-4 gap-y-6 md:gap-2 lg:gap-4 pb-5 mt-5 max-w-xs md:max-w-[1024px] mx-auto'>
 
-            <div className='grid grid-cols-1 md:grid-cols-3  space-y-8 md:space-y-0 gap-5 md:gap-4'>
-                {/* service card */}
-            <div className='max-w-sm md:w-1/2 h-44 lg:w-lg border rounded-m py-2' data-aos="zoom-in-up">
-                <p><FaFigma className='w-12 h-12 text-gradient mx-auto my-3'></FaFigma></p>
-                <h1 className='text-xl md:text-2xl lg:text-2xl font-roboto text-center text-gradient'>Figma to HTML5</h1>
-                <p className='text-slate-100 px-3 text-center pt-4 pb-5 font-sans-serif text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente laboriosam possimus quis aperiam. Quaerat, veritatis. Doloribus placeat a at quisquam.</p>
+            {/* card */}
+            <div class="card px-2 py-2 w-65">
+            <div class="layer"></div>
+                <div className='content'>
+                    <FaFigma className='icon w-10 h-10 mx-auto '></FaFigma>
+                    <h2 className=' text-2xl md:text-3xl font-bold my-3 font-roboto'>Figma to HTML5</h2>
+                    <p className=' text-white mb-3 font-roboto text-md'>I will convert your Figma file into HTML5 with the latest Bootstrap or Tailwind CSS. It will be fully responsive and pixel-perfect with clean and effective code. Let's turn your design into your website</p>
+                </div>
             </div>
-            <div className='max-w-sm md:w-1/2 h-44 lg:w-lg border rounded-m py-2' data-aos="zoom-in-up">
-                <p><FaFigma className='w-12 h-12 text-gradient mx-auto my-3'></FaFigma></p>
-                <h1 className='text-xl md:text-2xl lg:text-2xl font-roboto text-center text-gradient'>Figma to React</h1>
-                <p className='text-slate-100 px-3 text-center pt-4 pb-5 font-sans-serif text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente laboriosam possimus quis aperiam. Quaerat, veritatis. Doloribus placeat a at quisquam.</p>
+            <div class="card px-2 py-2 w-65">
+            <div class="layer"></div>
+                <div className='content'>
+                    <FaReact className='icon w-10 h-10 mx-auto'></FaReact>
+                    <h2 className=' text-2xl md:text-3xl font-bold my-3 font-roboto'>Figma to React</h2>
+                    <p className=' text-white mb-3 font-roboto'>Convert your Figma design into React website with the latest Bootstrap or Tailwind. It will be mobile responsive and pixel-perfect design. If you have any design I will turn It into a website.</p>
+                </div>
             </div>
-            <div className='max-w-sm md:w-1/2 lg:w-1/3 border rounded-m py-2' data-aos="zoom-in-up">
-                <p><BsFront className='w-12 h-12 text-gradient mx-auto my-3'></BsFront></p>
-                <h1 className='text-xl md:text-2xl lg:text-2xl font-roboto text-center text-gradient'>Front-End Development</h1>
-                <p className='text-slate-100 px-3 text-center pt-4 pb-5 font-sans-serif text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente laboriosam possimus quis aperiam. Quaerat, veritatis. Doloribus placeat a at quisquam.</p>
+            <div class="card px-2 py-2 w-65">
+            <div class="layer"></div>
+                <div className='content'>
+                    <FaLaptop className='icon w-10 h-10 mx-auto'></FaLaptop>
+                    <h2 className=' text-2xl md:text-3xl font-bold my-3 font-roboto '>Front-end Development</h2>
+                    <p className=' text-white mb-3 font-roboto'>I am a passionate Front-End Developer who is 100% focused on building creative and unique user-friendly UI with error-free code and 100% client satisfaction.</p>
+                </div>
             </div>
-            <div className='max-w-sm md:w-1/2 lg:w-1/3 border rounded-m py-2' data-aos="zoom-in-up" >
-                <p><RiAppsFill className='w-12 h-12 text-gradient mx-auto my-3'></RiAppsFill></p>
-                <h1 className='text-xl md:text-2xl lg:text-2xl font-roboto text-center text-gradient'>MERN Stack Development</h1>
-                <p className='text-slate-100 px-3 text-center pt-4 pb-5 font-sans-serif text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente laboriosam possimus quis aperiam. Quaerat, veritatis. Doloribus placeat a at quisquam go. </p>
+            <div class="card px-2 py-2 w-65">
+            <div class="layer"></div>
+                <div className='content'>
+                    <FaLaptopCode className='icon w-10 h-10 mx-auto'></FaLaptopCode>
+                    <h2 className=' text-2xl md:text-3xl font-bold my-3 font-roboto'>MERN Stack Development</h2>
+                    <p className=' text-white mb-3 font-roboto'>MERN is a popular stack for building full-stack websites. Currently, I am only focused on Front-end development and working on User interface design and development.</p>
+                </div>
             </div>
-            <div className='max-w-sm md:w-1/2 lg:w-1/3 border rounded-m py-2' data-aos="zoom-in-up" >
-                <p><RiAppsFill className='w-12 h-12 text-gradient mx-auto my-3'></RiAppsFill></p>
-                <h1 className='text-xl md:text-2xl lg:text-2xl font-roboto text-center text-gradient'>Fully Responsive Design</h1>
-                <p className='text-slate-100 px-3 text-center pt-4 pb-5 font-sans-serif text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente laboriosam possimus quis aperiam. Quaerat, veritatis. Doloribus placeat a at quisquam go. </p>
+            <div class="card px-2 py-2 w-65">
+            <div class="layer"></div>
+                <div className='content'>
+                    <DiResponsive className='icon w-14 h-14 mx-auto'></DiResponsive>
+                    <h2 className=' text-2xl md:text-3xl font-bold my-3 font-roboto pb-4'>Responsive Design</h2>
+                    <p className=' text-white mb-3 font-roboto'>I make websites that support pc, tablet, and mobile screens which are fully responsive means the user can use the website from pc or mobile very easily.</p>
+                </div>
             </div>
-            <div className='max-w-sm md:w-1/2 lg:w-1/3 border rounded-m py-2' data-aos="zoom-in-up" >
-                <p><RiAppsFill className='w-12 h-12 text-gradient mx-auto my-3'></RiAppsFill></p>
-                <h1 className='text-xl md:text-2xl lg:text-2xl font-roboto text-center text-gradient'>Website Bug Fixing</h1>
-                <p className='text-slate-100 px-3 text-center pt-4 pb-5 font-sans-serif text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente laboriosam possimus quis aperiam. Quaerat, veritatis. Doloribus placeat a at quisquam go. </p>
+            <div class="card px-2 py-2 w-65">
+            <div class="layer"></div>
+                <div className='content'>
+                    <FaBug className='icon w-10 h-10 mx-auto'></FaBug>
+                    <h2 className=' text-2xl md:text-3xl font-bold my-3 font-roboto'>Website bug Fixing</h2>
+                    <p className=' text-white mb-3 font-roboto'>Website problems & bugs are common problems for almost every website. With bugs a website lost a good user experience, I will fix the bugs, and will ensure you a bug-free clean, and well-optimized website.</p>
+                </div>
             </div>
-         
-            </div>
-        </div>
+        
+       
+        
+        </div>     
+    </div>
+
+
+
+
     );
 };
 

@@ -2,7 +2,6 @@ import React from 'react';
 import {  FaBootstrap, FaChrome, FaCode, FaCss3Alt, FaFigma, FaHtml5, FaNodeJs, FaReact } from 'react-icons/fa';
 import { AiOutlineApi } from "react-icons/ai";
 import './Skill.css'
-import { DiJavascript1 } from "react-icons/di";
 import { SiExpress, SiFirebase, SiJavascript, SiMongodb, SiRedux, SiTailwindcss } from "react-icons/si";
 
 const Skills = () => {
