@@ -27,12 +27,12 @@ const Navber = () => {
             </div>
             {/*navber mobile version */}
             
-            <div className='block md:hidden bg-black mt-10 lg:hidden flex w-full  fixed bottom-0 right-0  mb-0 p-3'>
-            <Link className='w-10 h-8 mx-8 text-white' to='/'><HomeIcon className=''></HomeIcon></Link>
-            <Link className='w-10 h-8 mr-8 text-white' to='/skill'><StarIcon ></StarIcon></Link>
-            <Link className='w-10 h-8 mr-8 text-white' to='/about'><IdentificationIcon></IdentificationIcon> </Link>
-            <Link className='w-10 h-8 mr-8 text-white' to='/portfolio'> < BriefcaseIcon></BriefcaseIcon></Link>
-            <Link className='w-10 h-8 mr-8 text-white' to='/contact'> <PhoneIcon></PhoneIcon></Link>
+            <div className='md:hidden mt-10 lg:hidden z-10 bg-slate-900 flex w-full  fixed bottom-0 right-0  mb-0 p-3'>
+            <Link className='w-10 h-8 mx-8 text-gradient' to='/'><HomeIcon className=''></HomeIcon></Link>
+            <Link className='w-10 h-8 mr-8 text-gradient' to='/skill'><StarIcon ></StarIcon></Link>
+            <Link className='w-10 h-8 mr-8 text-gradient' to='/about'><IdentificationIcon></IdentificationIcon> </Link>
+            <Link className='w-10 h-8 mr-8 text-gradient' to='/portfolio'> < BriefcaseIcon></BriefcaseIcon></Link>
+            <Link className='w-10 h-8 mr-8 text-gradient' to='/contact'> <PhoneIcon></PhoneIcon></Link>
             </div>
 
 

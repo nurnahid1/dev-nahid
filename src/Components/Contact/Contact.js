@@ -1,15 +1,32 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 import contact from '../../Images/contact.svg'
 import { FiMail, FiPhone } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 import me from '../../Images/banner.png'
+import { toast } from 'react-toastify';
 
 const Contact = () => {
+
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_3hvh9cm', 'template_6jwwe41', form.current, 'ajVaVul9L4hNWCRfM')
+      .then((result) => {
+          toast.success('Message send successfully!')
+      }, (error) => {
+          toast.error(error.message)
+      });
+      e.target.reset();
+  };
     return (
         <div >
            
             
-            <div className='md:flex justify-evenly items-center  mt-6 px-1 md:px-3 lg:px-16 md:mx-2 lg:mx-36 md:space-x-6 lg:space-x-24 rounded-md mr-10 ml-10 md:mr-14 md:ml-14'>
+            <div className='md:flex justify-evenly items-center  mt-6 px-1 md:px-3 lg:px-16 md:mx-2 lg:mx-36 md:space-x-6 lg:space-x-24 rounded-md mx-5 md:mr-14 md:ml-14'>
             
             <div>
             <div className='bg-purple-600/[.05]  flex justify-center items-center mb-10  '>
@@ -37,11 +54,11 @@ const Contact = () => {
                     </div>
                     
                 </div>
-                <form action="">
-                    <input className='font-sans-serif  px-3 text-gradient border border-slate-800 bg-indigo-800/[.05] py-3 w-full  mb-3  outline-none  mx-auto ' type="text" name="name" id="" placeholder='Your name' required/> <br />
-                    <input className='font-sans-serif text-gradient  px-3 py-3 w-full bg-indigo-800/[.05] mb-3 border border-slate-800 outline-none mx-auto ' type="email" name="emial" id="" placeholder='Your email' required/>
+                <form action="" ref={form} onSubmit={sendEmail}>
+                    <input className='font-sans-serif  px-3 text-gradient border border-slate-800 bg-indigo-800/[.05] py-3 w-full  mb-3  outline-none  mx-auto ' type="text" name="client-name" id="" placeholder='Your name' required/> <br />
+                    <input className='font-sans-serif text-gradient  px-3 py-3 w-full bg-indigo-800/[.05] mb-3 border border-slate-800 outline-none mx-auto ' type="email" name="email" id="" placeholder='Your email' required/>
 
-                    <textarea className='font-sans-serif pt-2 w-full outline-none  bg-indigo-800/[.05] text-gradient px-3 border border-slate-800' name="description" id="" cols="31" rows="6" placeholder='Type your message'></textarea>
+                    <textarea className='font-sans-serif pt-2 w-full outline-none  bg-indigo-800/[.05] text-gradient px-3 border border-slate-800' name="message" id="" cols="31" rows="6" placeholder='Type your message'></textarea>
 
                     <button className='w-full py-2 bg-[#3a0ca1] hover:bg-[#3a0ca9]  text-white mt-2 font-roboto'> Send </button>
                 </form>

@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
 import './App.css'
 import About from './Components/About/About';
 import Blog from './Components/Blog/Blog';
@@ -22,6 +23,8 @@ function App() {
         <Route path='/contact' element={<Contact></Contact>}></Route>
       </Routes>
       <Footer></Footer>
+
+      <ToastContainer></ToastContainer>
     </div>
   );
 }

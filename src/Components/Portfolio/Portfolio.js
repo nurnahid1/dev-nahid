@@ -1,8 +1,9 @@
 import React from 'react';
-import { FaBootstrap, FaGithub, FaNodeJs, FaReact } from 'react-icons/fa';
-import { SiExpress, SiFirebase, SiMongodb, SiSwiper, SiTailwindcss } from 'react-icons/si';
+import { FaBootstrap, FaCss3Alt, FaGithub, FaHtml5, FaNodeJs, FaReact } from 'react-icons/fa';
+import { SiExpress, SiFirebase, SiJavascript, SiMongodb, SiSwiper, SiTailwindcss } from 'react-icons/si';
 import motoWorld from '../../Images/motoWorld.png'
 import booking from '../../Images/booking.png'
+import calculator1 from '../../Images/calculator1.png'
 import { BiLinkExternal } from "react-icons/bi";
 import './Portfolio.css'
 import { Link } from 'react-router-dom';
@@ -142,6 +143,8 @@ const Portfolio = () => {
                 </div>
             </div>
             {/* ------------------ Project Card -------------------- */}
+            
+            {/*------------------------  Project Card  ---------------------*/}
 
 
         </div>
