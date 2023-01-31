@@ -10,21 +10,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
-  background:linear-gradient(to left , #0F2338, #0B1120);
+  background-color: #00bdde;
+  background-image: linear-gradient(90deg, #00b2de 0%, #FC00FF 100%);
+  
 
 }
 
 /* Scroollbar */
 body::-webkit-scrollbar {
-  width: 8px;
+  width: 4px;
 }
 body::-webkit-scrollbar-track {
-  background: rgb(0, 0, 0);
+  background: rgba(5, 1, 29, 0.836);
 }
 body::-webkit-scrollbar-thumb {
-  background:linear-gradient(to left , #ffffff, #171718);
-  border-radius: 20px;
-  border: 2px solid whitesmoke;
+  /* background:linear-gradient(to left , #f002e4, #0468ec); */
+  background-color: rgba(4, 21, 255, 0.795);
+  border-radius:15px;
+  border: 1px solid rgba(0, 0, 0, 0.048);
 }
 
 

@@ -7,10 +7,12 @@
     margin:0 auto;
     text-align:center;
 }
+
 .card .layer {
     z-index:1;
     position:absolute;
-    top:calc(100% - 5px);
+    /* top:calc(100% - 5px); */
+    top:0;
     height:100%;
     width:100%;
     left:0;
@@ -24,6 +26,7 @@
 .card h2 {
     z-index:2; 
     position:relative;
+   
   }
 .card .content {
     z-index:2; 
@@ -33,18 +36,18 @@
     color: #ffffff;
 } 
 
-.card:hover  .layer{
-    top:0;
+.card:hover  {
+    transform: scale(1.05);
+    transition: .2s ease-in-out;
+    z-index: 1;
 }
 
+
 .card .content  h2 {
-    color:#4361ee;
+    color: white;
     transition:0.5s;
 }
-.card:hover .content  h2 {
-    color:white;
-    position:relative
-}
+
 .card:hover .content {
     color:white;
     position:relative;

@@ -2,23 +2,26 @@ import React from 'react';
 import {  FaBootstrap, FaChrome, FaCode, FaCss3Alt, FaFigma, FaHtml5, FaNodeJs, FaReact } from 'react-icons/fa';
 import { AiOutlineApi } from "react-icons/ai";
 import './Skill.css'
-import { SiExpress, SiFirebase, SiJavascript, SiMongodb, SiRedux, SiTailwindcss } from "react-icons/si";
+import { SiExpress, SiFirebase, SiJavascript, SiMongodb, SiTailwindcss } from "react-icons/si";
 
 const Skills = () => {
     return (
         <div className=' '>
             <div className=''>
             <div className='pt-3 relative'>
-                <h1 className=' text-3xl md:text-5xl text-center p-2 mb-10 skills rounded-sm w-60 md:w-1/3 mx-auto mt-2 font-roboto skillsBg  '>Skills Overview</h1>
+                <h1 className=' text-3xl md:text-5xl text-center p-2 mb-10 rounded-sm w-60 md:w-1/3 mx-auto mt-2 font-roboto text-white font-bold  '>Skills Overview</h1>
                 {/* line */}
-                <div className='h-[2px] w-44 md:24 lg:w-60  bg-gradient-to-r from-[#000814] to-[#fff] mx-16  md:mx-14 lg:mx-40  md:px-5 lg:px-10 rounded-full  absolute left-10 md:left-96 bottom-1'></div>
+                <div className='h-[4px] w-44 md:24 lg:w-60  bg-gradient-to-r from-[#0353ca] to-[#cd08f5] mx-16  md:mx-14 lg:mx-40  md:px-5 lg:px-10 rounded-full  absolute left-10 md:left-[400px] bottom-1 md:mt-1'></div>
+
+               
+           
             </div>
             {/* Front-End  */}
             <div>
                 
-                <h2 className='text-xl md:text-3xl lg:text-3xl text-gradient mx-16  md:mx-14 lg:mx-32 md:px-5 lg:px-10 pl-3  '>Front-End Technology</h2>
+                <h2 className='text-xl md:text-2xl lg:text-2xl mx-16  md:mx-14 lg:mx-32 md:px-5 lg:px-10 pl-3 font-light text-white '>Front-End Technology</h2>
                 {/* line */}
-                <div className='h-[3px] w-28 md:w-36 lg:w-48 bg-gradient-to-r from-[#000814] to-[#fff] mx-16  md:mx-14 lg:mx-40  md:px-5 lg:px-10 rounded-full absolute left-1 mt-1'></div>
+                <div className='h-[2px] w-28 md:w-36 lg:w-24 bg-gradient-to-r from-[#1d00c2] to-[#fcfcfc] mx-16  md:mx-14 lg:mx-40  md:px-5 lg:px-10 rounded-full absolute left-[10px]  mt-1'></div>
 
             <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-2 lg:gap-2 pb-5 mt-5 md:max-w-[1024px] mx-auto'>
                     
@@ -74,9 +77,9 @@ const Skills = () => {
                    </div>
             </div>
                 {/* backend */}
-                <h2 className='text-xl md:text-3xl lg:text-3xl text-gradient mx-16  md:mx-14 lg:mx-32 md:px-5 lg:px-10 pl-4 pt-2'>Backend Technology</h2>
+                <h2 className='text-xl md:text-3xl lg:text-2xl font-light mx-16  md:mx-14 lg:mx-32 md:px-5 lg:px-10 pl-4 pt-2 text-white'>Backend Technology <span className='font-thin text-sm md:text-md'>(Basic)</span></h2>
                 {/* line */}
-                <div className='h-[3px]  w-28 md:w-36 lg:w-48 bg-gradient-to-r from-[#000814] to-[#fff] mx-16  md:mx-14 lg:mx-40  md:px-5 lg:px-10 rounded-full absolute left-3 '></div>
+                <div className='h-[2px]  w-28 md:w-36 lg:w-24 bg-gradient-to-r from-[#1d00c2] to-[#fcfcfc] mx-16  md:mx-14 lg:mx-40  md:px-5 lg:px-8 rounded-full absolute left-[10px] '></div>
 
                 <div className='grid grid-cols-1 md:grid-cols-3 pl-3 lg:grid-cols-4 gap-3 md:gap-2 lg:gap-5 pb-1 md:max-w-[1024px] mx-auto mt-5'>
 
@@ -113,9 +116,9 @@ const Skills = () => {
                 </div>
                 </div>
                {/* tools */}
-               <h2 className=' text-xl md:text-3xl lg:text-3xl text-gradient mx-16  md:mx-14 lg:mx-32 md:px-5 lg:px-10 pl-4 pt-4'>Tools</h2>
+               <h2 className=' text-xl md:text-3xl lg:text-2xl  mx-16  md:mx-14 text-white lg:mx-32 md:px-5 lg:px-10 pl-4 pt-4 font-light'>Tools</h2>
                {/* line */}
-               <div className='h-[3px] w-28 md:w-28 lg:w-32 bg-gradient-to-r from-[#000814] to-[#fff] mx-16  md:mx-14 lg:mx-40  md:px-5 lg:px-10 rounded-full absolute left-3 '></div>
+               <div className='h-[2px] w-28 md:w-28 lg:w-12 bg-gradient-to-r from-[#1d00c2] to-[#fcfcfc] mx-16  md:mx-14 lg:mx-40  md:px-5 lg:px-10 rounded-full absolute left-[10px] '></div>
 
                <div className='grid grid-cols-1 md:grid-cols-3 pl-3 lg:grid-cols-4 gap-3 md:gap-2 lg:gap-5 pb-5 md:max-w-[1024px] mx-auto mt-5'>
 

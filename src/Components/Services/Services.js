@@ -11,19 +11,19 @@ AOS.init();
 
 const Services = () => {
     return (
-    <div className=''>
+    <div className='md:mt-24 md:mb-16'>
            <div className='relative w-full mb-16 md:mb-20'>
-           <h2 className='text-3xl md:text-5xl text-white mb-12 text-center font-roboto text-gradient '>Services I provide</h2>
+           <h2 className='text-3xl md:text-5xl text-white mb-12 text-center font-roboto font-bold  drop-shadow-2xl'>Services I provide</h2>
            {/* Line */}
-            <div className='h-[2px] w-56 md:w-60 lg:w-96  bg-gradient-to-r from-[#000814] to-[#fff]    md:px-5 lg:px-10 rounded-full  absolute left-20 md:left-[470px]  top-10  md:top-[50px] '>
+            <div className='h-[5px] w-56 md:w-1/2 lg:w-60  bg-gradient-to-r from-[#0353ca] to-[#cd08f5]    md:px-5 lg:px-10 rounded-full  absolute left-20 md:left-[570px]  top-10  md:top-[55px] md:mt-1 '>
             </div>
             </div>
             {/* Service Cards */}
             <div className='grid grid-cols-1 md:grid-cols-3 gap-4 gap-y-6 md:gap-2 lg:gap-4 pb-5 mt-5 max-w-xs md:max-w-[1024px] mx-auto'>
 
             {/* card */}
-            <div class="card px-2 py-2 w-65">
-            <div class="layer"></div>
+            <div class="card px-2 py-2 w-65 ">
+            <div class="layer hover:shadow-2xl"></div>
                 <div className='content'>
                     <FaFigma className='icon w-10 h-10 mx-auto '></FaFigma>
                     <h2 className=' text-2xl md:text-3xl font-bold my-3 font-roboto'>Figma to HTML5</h2>

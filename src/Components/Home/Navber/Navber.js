@@ -8,21 +8,21 @@ const Navber = () => {
         <div className='mx-10 md:mx-14 lg:mx-32'>
             <div className='flex justify-between mt-5 md:mt-10'>
             <div>
-              <h2 className='logo text-2xl font-poppins'>Nahid</h2>
+              <h2 className='text-white text-2xl font-poppins font-medium'>Nahid</h2>
             </div>
 
             {/* desktop version */}
             <div className='lg:max-w-lg max-w-xs hidden md:block lg:block'>
-                <Link className='mr-5 text-gradient font-bold p-2  font-open-sans' to="/">Home</Link>
-                <Link className='mr-5 text-gradient font-bold p-2 font-open-sans ' to="/about">About</Link>
-                <Link className='mr-5 text-gradient font-bold font-open-sans  p-2' to="/skill">Skills</Link>
-                <Link className='mr-5 text-gradient font-bold font-open-sans pb-2' to="/portfolio">Portfolio</Link>
-                <Link className='mr-5 text-gradient font-bold p-2 font-open-sans ' to="/blog">Blog</Link>
-                <Link className='mr-5 text-gradient font-bold hover:text-slate-200    p-2  font-open-sans' to="/contact">Contact</Link>
+                <Link className='mr-5 text-white font-normal p-2  font-poppins' to="/">Home</Link>
+                <Link className='mr-5 p-2 font-poppins font-normal text-white' to="/about">About</Link>
+                <Link className='mr-5 text-white font-normal p-2  font-poppins' to="/skill">Skills</Link>
+                <Link className='mr-5 text-white font-normal p-2  font-poppins' to="/portfolio">Portfolio</Link>
+                <Link className='mr-5 text-white font-normal p-2  font-poppins' to="/blog">Blog</Link>
+                <Link className='mr-5 text-white font-normal p-2  font-poppins' to="/contact">Contact</Link>
             </div>
 
             <div >
-            <SunIcon className='text-gradient w-6 h-6'></SunIcon>
+            <SunIcon className='text-white w-6 h-6'></SunIcon>
             </div>
             </div>
             {/*navber mobile version */}
