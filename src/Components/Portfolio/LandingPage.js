@@ -1,6 +1,7 @@
 import React from 'react';
 import { BiLinkExternal } from 'react-icons/bi';
-import doctor from '../../Images/landing.png'
+// import doctor from '../../Images/landing.png'
+import doctor from '../../Images/nft.jpg'
 import './LandingPage.css'
 
 
@@ -12,7 +13,7 @@ const LandingPage = () => {
             
                     <div className="middle">
                         <div className="text flex items-center justify-center gap-1 font-roboto font-light">
-                            <a className='text-sm' href="d"> view site</a>
+                            <a className='text-sm' href="">Loading...</a>
                             <BiLinkExternal></BiLinkExternal>
                         </div>
                     </div>
