@@ -26,7 +26,6 @@ const Banner = () => {
                 <h1 className='text-2xl mt-5 text-center md:text-start text-white font-roboto'>It's me Nahid,  <span className='text-md'>I'm a</span></h1>
                
                 {/* Type writer effect */}
-
                <div className='text-3xl md:text-3xl lg:text-5xl mt-1 text-center md:text-start text-white font-medium  font-roboto'>
                <Typewriter               
                options={{
