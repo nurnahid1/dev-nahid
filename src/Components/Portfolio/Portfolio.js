@@ -231,7 +231,7 @@ const Portfolio = () => {
             </div>
 
             {/* Box / Container*/}
-            <div className='md:max-w-[1024px]  my-10 md:mt-16 content-center mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-y-3 gap-x-5 '>
+            <div className='md:max-w-[1024px] my-10 md:mt-16 content-center mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-y-3 gap-x-5'>
 
              
                 <LandingPage></LandingPage>
