@@ -21,13 +21,13 @@ const LandingPage = () => {
                         </div>
                     <div className='overley absolute '></div>
                 </div>
-                <div className='w-2/3 mx-auto'>
+                <div className='md:w-full w-2/3 mx-auto'>
                 <p className='text-white font-popins text-center py-1 mt-2 text-g '>NFT Landing Page</p>
                 </div>
                </div>
 
                {/* landing page 2 */}
-               <div className='container relative '>
+               <div className='container relative mt-10 md:mt-0'>
                 <div className='image-wrapper-l  mx-auto shadow-md rounded-sm'>
                         <img className='image  overflow-hidden ' src={landing2} alt="" />
                         <div className="middle">
@@ -38,7 +38,7 @@ const LandingPage = () => {
                         </div>
                     <div className='overley absolute '></div>
                 </div>
-                <div className='w-3/3 mx-auto'>
+                <div className='md:w-full w-2/3 mx-auto'>
                     <p className='text-white font-popins text-center py-1 mt-2 text-g '>Interior Design Landing Page</p>
                 </div>
                </div>
