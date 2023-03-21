@@ -236,7 +236,7 @@ const Portfolio = () => {
             {/* Title */}
             <div>
             <h2 className='text-xl md:text-4xl font-bold mt-8 md:mt-24 text-white pb-1 mb-0 text-center'>Landing Page Design</h2>
-            <p className='text-slate-200 font-poppins font-thin text-center mt-1 text-xl'>Coming soon...</p>
+           
             <div className='md:max-w-[1024px] mx-16 md:mx-14'>
                 
             </div>
